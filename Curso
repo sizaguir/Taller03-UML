@@ -1,0 +1,84 @@
+package com.mycompany.ds;
+
+import java.util.ArrayList;
+
+public class Curso {
+    private String id;
+    private String nombre;
+    private boolean estadoDisponible;
+    private Estudiante estudiantesEnEsperaDeInscripcion;
+    private Estudiante estudiantesInscritos;
+    private Profesor responsable;
+    private ArrayList<Foro> foros;
+    private ArrayList<ActividadSumativa> actividadesSumativas;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public boolean isEstadoDisponible() {
+        return estadoDisponible;
+    }
+
+    public void setEstadoDisponible(boolean estadoDisponible) {
+        this.estadoDisponible = estadoDisponible;
+    }
+
+    public Estudiante getEstudiantesEnEsperaDeInscripcion() {
+        return estudiantesEnEsperaDeInscripcion;
+    }
+
+    public void setEstudiantesEnEsperaDeInscripcion(Estudiante estudiantesEnEsperaDeInscripcion) {
+        this.estudiantesEnEsperaDeInscripcion = estudiantesEnEsperaDeInscripcion;
+    }
+
+    public Estudiante getEstudiantesInscritos() {
+        return estudiantesInscritos;
+    }
+
+    public void setEstudiantesInscritos(Estudiante estudiantesInscritos) {
+        this.estudiantesInscritos = estudiantesInscritos;
+    }
+
+   
+    public Profesor getResponsable() {
+        return responsable;
+    }
+
+    public void setResponsable(Profesor responsable) {
+        this.responsable = responsable;
+    }
+
+    public ArrayList<Foro> getForos() {
+        return foros;
+    }
+
+    public void setForos(ArrayList<Foro> foros) {
+        this.foros = foros;
+    }
+
+    
+    public ArrayList<ActividadSumativa> getActividadesSumativas() {
+        return actividadesSumativas;
+    }
+
+    public void setActividadesSumativas(ArrayList<ActividadSumativa> actividadesSumativas) {
+        this.actividadesSumativas = actividadesSumativas;
+    }
+
+    
+    
+    
+}
