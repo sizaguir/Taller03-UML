@@ -12,4 +12,4 @@ public class Tarea extends ActividadSumativa{
     public void setFechaDePublicacion(Date fechaDePublicacion) {
         this.fechaDePublicacion = fechaDePublicacion;
     }
-    
+}

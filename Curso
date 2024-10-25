@@ -6,8 +6,8 @@ public class Curso {
     private String id;
     private String nombre;
     private boolean estadoDisponible;
-    private Estudiante estudiantesEnEsperaDeInscripcion;
-    private Estudiante estudiantesInscritos;
+    private Estudiante ArrayList<Estudiante> estudiantesEnEsperaDeInscripcion;
+    private Estudiante ArrayList<Estudiante> estudiantesInscritos;
     private Profesor responsable;
     private ArrayList<Foro> foros;
     private ArrayList<ActividadSumativa> actividadesSumativas;
@@ -36,19 +36,19 @@ public class Curso {
         this.estadoDisponible = estadoDisponible;
     }
 
-    public Estudiante getEstudiantesEnEsperaDeInscripcion() {
+    public ArrayList<Estudiante> getEstudiantesEnEsperaDeInscripcion() {
         return estudiantesEnEsperaDeInscripcion;
     }
 
-    public void setEstudiantesEnEsperaDeInscripcion(Estudiante estudiantesEnEsperaDeInscripcion) {
+    public void setEstudiantesEnEsperaDeInscripcion(ArrayList<Estudiante> estudiantesEnEsperaDeInscripcion) {
         this.estudiantesEnEsperaDeInscripcion = estudiantesEnEsperaDeInscripcion;
     }
 
-    public Estudiante getEstudiantesInscritos() {
+    public ArrayList<Estudiante> getEstudiantesInscritos() {
         return estudiantesInscritos;
     }
 
-    public void setEstudiantesInscritos(Estudiante estudiantesInscritos) {
+    public void setEstudiantesInscritos(ArrayList<Estudiante> estudiantesInscritos) {
         this.estudiantesInscritos = estudiantesInscritos;
     }
 
